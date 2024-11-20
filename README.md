@@ -27,20 +27,20 @@ The data for this project is fetched directly from OpenStreetMap using the osmnx
    
 ## Installation
 ### Step 1: Clone the Repository
-///bash
+```bash
 git clone https://github.com/your-username/pedestrian-friendly-cologne.git
 cd pedestrian-friendly-cologne
-///
+```
 ### Step 2: Install Dependencies
-///bash
+```bash
 pip install -r requirements.txt
-///
+```
 
 ## Usage
 Run the script to generate the visualizations and results:
-///bash
+```bash
 python pedestrian_analysis.py
-///
+```
 
 The script fetches data from OpenStreetMap, simulates neighborhood data, trains an SVM model, and generates visualizations.
 
